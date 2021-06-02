@@ -1,8 +1,8 @@
 # Site settings
 title: 3sc4p3
 description: This is my profile
-# baseurl: "/particle"
-# url: "https://3sc4p3.me/"
+baseurl: "/"
+url: "https://3sc4p3.me"
 
 # User settings
 username: 3sc4p3
