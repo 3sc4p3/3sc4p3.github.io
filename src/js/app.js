@@ -3,10 +3,11 @@ document.addEventListener("DOMContentLoaded", function () {
   new SweetScroll({/* some options */});
 
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-  particlesJS('particles-js', {
+  tsParticles.load('particles-js', {
+    "fpsLimit": 30,
     "particles": {
       "number": {
-        "value": 30,
+        "value": 60,
         "density": {
           "enable": true,
           "value_area": 800

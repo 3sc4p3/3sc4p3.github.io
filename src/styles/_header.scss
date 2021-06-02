@@ -7,7 +7,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  .particles-js-canvas-el {
+  .particles-js-canvas-el,
+  .tsparticles-canvas-el {
     width:100% !important;
     height:100vh !important;
   }
@@ -28,7 +29,16 @@
     display: block;
     line-height: 1;
     color: rgb(150, 236, 52) ;
-    @media only screen and (min-width:$cut){
+    @media only screen and (min-width:$sm){
+      font-size: 40px;
+    }
+    @media only screen and (min-width:$md){
+      font-size: 60px;
+    }
+    @media only screen and (min-width:$lg){
+      font-size: 80px;
+    }
+    @media only screen and (min-width:$xl){
       margin: 0;
       font-size: 100px;
     }
@@ -39,8 +49,17 @@
     line-height: 1;
     color: rgb(150, 236, 52) ;
     margin-top: 10px;
-    @media only screen and (min-width:$cut){
-      font-size: 40px;
+    @media only screen and (min-width:$sm){
+      font-size: 13px;
+    }
+    @media only screen and (min-width:$md){
+      font-size: 20px;
+    }
+    @media only screen and (min-width:$lg){
+      font-size: 25px;
+    }
+    @media only screen and (min-width:$xl){
+      font-size: 30px;
     }
   }
 }
@@ -52,9 +71,6 @@
     text-decoration: none;
     font-size: 15px;
     margin: 10px;
-    @media only screen and (min-width:$cut){
-      font-size: 20px;
-    }
   }
 }
 
@@ -82,10 +98,25 @@
       color: $main;
       background: rgb(150, 236, 52) ;
     }
-    @media only screen and (min-width:$cut) {
-      width: 35px;
-      height: 35px;
-      font-size: 35px;
+    @media only screen and (min-width:$sm){
+      width: 15px;
+      height: 15px;
+      font-size: 15px;
+    }
+    @media only screen and (min-width:$md){
+      width: 20px;
+      height: 20px;
+      font-size: 20px;
+    }
+    @media only screen and (min-width:$lg){
+      width: 25px;
+      height: 25px;
+      font-size: 25px;
+    }
+    @media only screen and (min-width:$xl){
+      width: 25px;
+      height: 25px;
+      font-size: 25px;
     }
   }
 }
