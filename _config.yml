@@ -1,0 +1,20 @@
+# Site settings
+title: 3sc4p3
+description: This is my profile
+# baseurl: "/particle"
+# url: "https://3sc4p3.me/"
+
+# User settings
+username: 3sc4p3
+user_description: This is my profile
+user_title: Ethical Hacker | Penetration Tester
+email: 3sc4p3@protomail.com
+twitter_username: '#'
+github_username:  '#'
+gplus_username:  '#'
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+exclude: ['package.json', 'src' , 'node_modules']
